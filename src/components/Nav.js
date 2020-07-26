@@ -5,20 +5,20 @@ const Nav = () => {
   return (
     <nav className={styles.nav}>
       <h2>Logo</h2>
-      <ul>
+      {/* <ul>
         <li>
-          <a href='#'>Home</a>
+          <a>Home</a>
         </li>
         <li>
-          <a href='#'>About</a>
+          <a>About</a>
         </li>
         <li>
-          <a href='#'>Services</a>
+          <a>Services</a>
         </li>
         <li>
-          <a href='#'>Contact</a>
+          <a>Contact</a>
         </li>
-      </ul>
+      </ul> */}
     </nav>
   );
 };
