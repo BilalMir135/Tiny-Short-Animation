@@ -1,11 +1,16 @@
 import React from 'react';
-import Nav from './components/Nav';
+import LandingPage from './components/LandingPage';
+import { BrowserRouter as Router, Switch, Route } from 'react-router-dom';
 import './App.css';
 
 const App = () => {
   return (
     <div>
-      <Nav />
+      <Router>
+        <Switch>
+          <Route to='/' exact component={LandingPage} />
+        </Switch>
+      </Router>
     </div>
   );
 };

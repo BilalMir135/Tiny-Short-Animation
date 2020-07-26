@@ -2,6 +2,10 @@
   width: 100%;
   display: flex;
   padding: 10px 40px;
+  position: absolute;
+  top: 0;
+  color: #fff;
+  z-index: 100;
 }
 
 .nav h2 {
@@ -16,10 +20,10 @@
 
 .nav ul li {
   font-size: 1.5rem;
-  padding: 0 20px;
+  padding: 0 30px;
 }
 
 .nav ul li a {
-  color: #000;
+  color: #fff;
   text-decoration: none;
 }
