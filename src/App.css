@@ -3,4 +3,84 @@
   padding: 0;
   box-sizing: border-box;
   font-family: 'Poppins', sans-serif;
+  overflow: hidden;
+}
+
+.logo {
+  position: absolute;
+  left: 36px;
+  top: 36px;
+  z-index: 200;
+  color: #fff;
+  font-size: 2rem;
+}
+
+.circle-one,
+.circle-two {
+  z-index: 100;
+  position: absolute;
+  width: 500px;
+  height: 500px;
+  opacity: 0.3;
+}
+
+.circle-one {
+  top: -20%;
+  left: -15%;
+  transform: translateX(-100%);
+}
+
+.circle-two {
+  bottom: -20%;
+  right: -15%;
+  transform: translateX(100%);
+}
+
+.content img {
+  transform: translateX(100%);
+  position: absolute;
+  top: 20%;
+  right: -10%;
+  z-index: 300;
+  width: 700px;
+}
+
+.content .text {
+  position: absolute;
+  top: 15%;
+  left: 2%;
+  color: #fff;
+  z-index: 300;
+}
+
+.content .text h1 {
+  width: 50%;
+  text-transform: uppercase;
+  font-size: 4rem;
+  font-weight: 800;
+}
+
+.content .text h1 span {
+  color: #f44336;
+  opacity: 0;
+}
+
+.content .text p {
+  width: 60%;
+  line-height: 1.5;
+  margin: 30px 0;
+}
+
+.content .text a {
+  color: #fff;
+  text-decoration: none;
+  display: inline-block;
+  background-color: #f44336;
+  padding: 20px 40px;
+  font-weight: 800;
+  opacity: 0;
+}
+
+.content .text a:hover {
+  background-color: #f5685e;
 }
