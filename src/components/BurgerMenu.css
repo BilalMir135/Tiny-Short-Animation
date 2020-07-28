@@ -1,6 +1,6 @@
 /* Position and sizing of burger button */
 .bm-burger-button {
-  position: fixed;
+  position: absolute;
   width: 36px;
   height: 30px;
   right: 36px;
@@ -22,7 +22,6 @@
 .bm-cross-button {
   height: 24px;
   width: 24px;
-  overflow: visible;
 }
 
 /* Color/shape of close button cross */
@@ -35,7 +34,7 @@
   Note: Beware of modifying this element as it can break the animations - you should not need to touch it in most cases
   */
 .bm-menu-wrap {
-  position: fixed;
+  position: absolute;
   height: 100%;
 }
 

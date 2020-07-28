@@ -30,7 +30,7 @@ const SecondOverlay = () => {
   });
 
   return (
-    <div>
+    <div className='second-overlay'>
       <img
         src={CircleImg}
         alt='circle-img'
